@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace WindowsApplication1
+﻿Namespace WindowsApplication1
 	Partial Public Class XtraReport2
 		''' <summary>
 		''' Required designer variable.
