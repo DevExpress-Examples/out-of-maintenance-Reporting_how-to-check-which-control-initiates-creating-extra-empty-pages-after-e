@@ -800,7 +800,7 @@ Namespace WindowsApplication1.nwindDataSetTableAdapters
 		<System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")>
 		Private Sub InitConnection()
 			Me._connection = New System.Data.OleDb.OleDbConnection()
-			Me._connection.ConnectionString = Global.WindowsApplication1.Properties.Settings.Default.nwindConnectionString
+			Me._connection.ConnectionString = My.Settings.Default.nwindConnectionString
 		End Sub
 
 		<System.Diagnostics.DebuggerNonUserCodeAttribute()>
